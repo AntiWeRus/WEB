@@ -1,0 +1,9 @@
+.right_aligned
+{
+    align-self: flex-start;
+}
+
+.top_aligned
+{
+    justify-self: flex-start;
+}

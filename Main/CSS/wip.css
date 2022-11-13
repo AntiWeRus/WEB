@@ -1,0 +1,13 @@
+*
+{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 50%);
+}
+
+.container
+{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 50%);
+}
