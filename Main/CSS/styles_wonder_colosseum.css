@@ -1,0 +1,90 @@
+.wonder
+{
+    margin: 16px 0px;
+    padding: 0px 8px;
+    grid-gap: 50px;
+    
+    grid-template-columns: auto auto;
+    gap: 16px;
+
+    justify-content: center;
+    align-items: stretch;
+
+    background-color: transparent;
+}
+.wonder>.description,.wonder>.slider
+{
+    padding: 32px 16px;
+
+    border-style: solid ;
+    border-width: 0px 8px;
+    border-image: linear-gradient(to bottom, firebrick , darkred ) 0 1;
+
+    box-shadow: 4px 4px 4px #420000;
+}
+
+.wonder>.description
+{
+    max-width: 420px;
+    justify-content: flex-start;
+}
+
+.wonder>.slider
+{
+    max-width: 380px;
+    padding: 32px 8px 32px 4px;
+}
+
+.upper,.lower
+{
+    margin: 4px 0px;
+    margin-left: 4px;
+    height: 32px;
+    width: 90%;
+}
+
+.nav_buttons
+{
+   
+    margin-left: 8px;
+    gap:32px;
+}
+
+.nav_button
+{
+    width: 32px;
+    height: 32px;
+
+    background-color: beige;
+    border-color: lightgray;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+
+}
+.picture
+{
+    min-width: 256px;
+    min-height: 192px;
+
+    max-width: 256px;
+    max-height: 192px;
+    
+    object-fit: cover;
+
+    border-style: solid;
+    border-width: 8px;
+    border-color:darkred;  
+    
+    box-shadow: 4px 4px 4px rgba(0,0,0,25%);
+}
+.slider>.container_row
+{
+    padding: 16px 0px;
+}
+.pictures
+{
+    padding-left: 32px;
+    gap: 8px;
+}
