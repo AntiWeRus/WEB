@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Wonder, Colosseum, Rome" />
+
+    <title>New Seven Wonders - Colosseum</title>
+
+    <!--Icon-->
+    <link rel="icon" href="IMGs/logo_pyramid.svg">
+
+    <!--Styles-->
+    <link rel="stylesheet" href="CSS/styles_basic.css">
+    <link rel="stylesheet" href="CSS/styles_header.css">
+    <link rel="stylesheet" href="CSS/styles_sub_header.css">
+    <link rel="stylesheet" href="CSS/styles_wonder_colosseum.css">
+    <link rel="stylesheet" href="CSS/styles_additional.css">
+    
+</head>
+
+<body>
+    
+    <!--Header-->
+    <header>
+        <div class="container_row header">
+            <img class="logo" src="IMGs/logo_pyramid.svg" alt="Logo (Pyramid)">
+            <h1>Wonders of the World</h1>
+            <button onclick="returnToMainPage()">Return</button>
+        </div>
+    </header>
+    
+    <!--Sub Header-->
+    <div class="container_row sub_header">
+        <div class="container_row"><h2>Colosseum</h2></div>
+        <div class="container_row triangle"></div>
+        <div class="container_row location">
+            <img class="globe" src="IMGs/flaticon_worldwide.png" alt="Globe">
+            <div class="container_col">
+                <p>Rome</p>
+                <p>Italy</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Main-->
+    <main>
+    <div class="container_row wonder">
+        <!--Description-->
+        <div class="container_col description">
+            <p>
+                &emsp;
+                The Colosseum is an oval amphitheatre in the centre of the city of Rome.
+                It is the largest ancient amphitheatre ever built, and is still the
+                largest standing amphitheatre in the world today, despite its age. 
+            </p>
+            <p>
+                &emsp;
+                Construction began under the emperor Vespasian in 72
+                and was completed in 80 AD under his successor and heir,
+                Titus. The Colosseum is built of travertine limestone,
+                tuff (volcanic rock), and brick-faced concrete.  
+                It could hold an estimated 50,000 to 80,000 spectators
+                at various points in its history, having an average audience
+                of some 65,000. It was used for gladiatorial contests and public
+                spectacles including animal hunts, executions, re-enactments of
+                famous battles, and dramas based on Roman mythology. The building
+                ceased to be used for entertainment in the early medieval era. It
+                was later reused for such purposes as housing, workshops, quarters for
+                a religious order, a fortress, a quarry, and a Christian shrine.
+            </p>
+            <p>
+                &emsp;
+                Although substantially ruined by earthquakes and stone
+                robbers taking spolia, the Colosseum is still an iconic
+                symbol of Imperial Rome and was listed as one of
+                the New Seven Wonders of the World.
+            </p>
+        </div>
+
+         <!--Slider-->
+        <div class="container_col slider">
+            <button class="upper" onclick="showPrevElement()">&uarr; &uarr; &uarr;</button>
+            <div class="container_row">
+                <div class="container_col pictures">
+
+                    <!--Pictures-->
+                    <img class="picture"        src="IMGs/W1/NickGindraux_Gladiator.jpg"  alt="Gladiator"> 
+                    <img class="picture"        src="IMGs/W1/Colosseum_1.jpg"             alt="Colosseum"> 
+                    <img class="picture hidden" src="IMGs/W1/RomeTotalWar.jpg"            alt="Roman Army"> 
+                    <img class="picture hidden" src="IMGs/W1/Colosseum_2.jpg"             alt="Colosseum"> 
+                    <img class="picture hidden" src="IMGs/W1/Colosseum_3.jpg"             alt="Colosseum"> 
+                    <!--Imitation of 1st image-->
+                    <img class="picture hidden" src="IMGs/W1/NickGindraux_Gladiator.jpg"  alt="Gladiator"> 
+                </div>
+
+                <div class="container_col nav_buttons">
+                    <button class="nav_button active" onclick="showElement(0)"></button>
+                    <button class="nav_button active" onclick="showElement(1)"></button>
+                    <button class="nav_button" onclick="showElement(2)"></button>
+                    <button class="nav_button" onclick="showElement(3)"></button>
+                    <button class="nav_button" onclick="showElement(4)"></button>
+                </div>
+
+            </div>
+            <button class="lower" onclick="showNextElement()">&darr; &darr; &darr;</button>
+        </div>
+    </div>
+    </main>
+
+    <!--Scripts-->
+    <script src="JS/script_basic.js"></script>
+    <script src="JS/script_slider_double.js"></script>
+
+</body>
+</html>
