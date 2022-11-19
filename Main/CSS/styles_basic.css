@@ -4,6 +4,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+@font-face 
+{
+    font-family: "Bahnschrift SemiCondensed";
+    font-stretch: semi-condensed;
+    src: url("../Fonts/Bahnschrift.ttf");
+}
 
 body
 {
